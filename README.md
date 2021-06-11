@@ -3,7 +3,7 @@ A simple CLI based Pokémon quiz game
 
 **For live version take a look at my Repl at - https://replit.com/@ShiviPro/PokeQuiz?embed=1&output=1#index.js**
 
-**Setting Up locally**
+## Setting Up locally
 
 Step 1. Please ensure that you have both nodeJs and npm installed on your system. If not, download the latest stable version from [here](https://www.npmjs.com/get-npm)
 
