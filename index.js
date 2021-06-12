@@ -143,10 +143,10 @@ const progressBar = require('cli-progress');
 // font styles
 const pokeYellow = chalk.hex('ffcb05');
 const pokeBlue = chalk.hex('3c5aa6');
-const pokeRed = chalk.hex('#cc0000');
+const pokeRed = chalk.hex('cc0000');
 const pokeYellowAndBlue = chalk.bgHex('ffcb05').hex('3c5aa6').bold;
 // specifies pokeBlue as font color and pokeYellow as background color
-const pokeYellowAndRed = chalk.bgHex('ffcb05').hex('#cc0000').bold;
+const pokeYellowAndRed = chalk.bgHex('ffcb05').hex('cc0000').bold;
 // specifies pokeRed as font color and pokeYellow as background color
 
 // Stores the top scorers' name and score in JS objects
