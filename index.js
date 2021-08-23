@@ -318,14 +318,6 @@ function askQuestion(qNo, quesText, options, answer, pointsAwarded, metaInfo, cu
   }
 }
 
-// Executes if player quits in the beginning of the quiz, without even answering a single question
-function endQuizInBeginning() {
-  addNewLine();
-  console.log(pokeBlue("Guess we'll see you around "+userName+"!"));
-  addNewLine();
-  process.exit();
-}
-
 // Executes if player quits in the middle of a quiz level
 function endQuizInMid(currLevel, score) {
   console.log(pokeBlue("Ending the challenge, so soon :("));
